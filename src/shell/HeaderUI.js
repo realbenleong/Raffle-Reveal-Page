@@ -98,16 +98,16 @@ export class HeaderUI extends Component {
                                     </Menu.Item>
                                 </Menu.Menu>
                             }
-                            {
-                                this.props.windowWidth < 930 &&
-                                <React.Fragment>
-                                    <Menu.Menu widths={1} fluid position='right'>
-                                        <Menu.Item>
-                                            <Icon name='bars'></Icon>
-                                        </Menu.Item>
-                                    </Menu.Menu>
-                                </React.Fragment>
-                            }
+                        </React.Fragment>
+                    }
+                    {
+                        this.props.windowWidth < 930 &&
+                        <React.Fragment>
+                            <Menu.Menu widths={1} fluid position='right'>
+                                <Menu.Item>
+                                    <Icon name='bars'></Icon>
+                                </Menu.Item>
+                            </Menu.Menu>
                         </React.Fragment>
                     }
                 </Menu>
