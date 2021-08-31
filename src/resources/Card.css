@@ -1,0 +1,39 @@
+.appkit-card {
+    background-color: white;
+    box-shadow: 0 10px 40px 0 rgba(18,106,211,.07), 0 2px 9px 0 rgba(18,106,211,.06);
+    border-radius: 10px;
+    border: none;
+    position: relative;
+}
+
+.appkit-card .card-body {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.appkit-card .padding {
+    padding: 1.5em;
+}
+
+.appkit-card .card-header {
+    padding: .75em 1.5em;
+    border-bottom: 1px solid rgba(234,243,253,.9);
+    font-size: 1em;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.appkit-card .card-header .card-left {
+    flex-grow: 1;
+}
+
+.appkit-card .card-header .card-right {
+    flex-grow: 0;
+}
+
+.appkit-card .card-loading-mask {
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+}
